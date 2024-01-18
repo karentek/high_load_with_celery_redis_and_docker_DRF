@@ -34,4 +34,4 @@ class Subscribtion(models.Model):
     plan = models.ForeignKey(Plan, related_name='subscribtion', on_delete=models.PROTECT)
 
     def __str__(self):
-        return f"Subscribtion {self.client} to {self.service} on {self.plan} "
+        return f"Subscribtion {self.client} to {self.service} on {self.plan}"
