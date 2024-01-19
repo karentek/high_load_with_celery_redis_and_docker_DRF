@@ -10,7 +10,6 @@ class Service(models.Model):
         return f"Service {self.name}"
 
 
-
 class Plan(models.Model):
     PLAN_TYPES = (
         ('full', 'Full'),
